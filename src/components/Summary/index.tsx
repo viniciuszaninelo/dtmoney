@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 
-import IncomeImg from '../../assets/entradas.svg';
-import outcomeImg from '../../assets/saidas.svg';
+import IncomeImg from '../../assets/entrada.svg';
+import outcomeImg from '../../assets/saida.svg';
 import totalImg from '../../assets/total.svg';
 
 
