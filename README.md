@@ -1,7 +1,8 @@
 working
 
 
-predefinições 
-add miragejs como back-end
-
- - > modal 
+React
+Typescript
+React Modal
+Mirage JS
+Styled Components
