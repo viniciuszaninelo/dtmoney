@@ -3,6 +3,7 @@ import Modal from 'react-modal'
 import closeImg from '../../assets/close.svg'
 import entradaImg from '../../assets/entrada.svg'
 import saidaImg from '../../assets/saida.svg'
+import { api } from '../../services/api'
 import { Container, TransactionTypeContainer, RadioBox } from './styles'
 
 
@@ -21,12 +22,14 @@ export function NewTransactionModal({ isOpen, onRequestClose}: NewTransactionMod
   function handleCreateNewTransaction(event: FormEvent) {
     event.preventDefault(); //faz com que a página pare de recarregar, assim que o usuário click no botão de cadastrar
 
-    console.log({
+    const data = ({
       title,
       value, 
       category,
       type,
-    })
+    });
+
+    api.post('/transitions', data)
   }
 
 
