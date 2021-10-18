@@ -20,5 +20,4 @@ WORK
 * [Mirage JS](https://miragejs.com/)
 * [Styled Components ](https://styled-components.com/)  
 
-<h2>Authors</h2>
-Vinícius Marques Zaninelo [Linkedin](https://www.linkedin.com/in/vin%C3%ADciuszaninelo/)
+
