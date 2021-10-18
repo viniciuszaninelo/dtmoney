@@ -24,3 +24,5 @@ WORK
 * [Styled Components ](https://styled-components.com/)  
 
 
+Vinícius Marques Zaninelo - [Linkedin](https://www.linkedin.com/in/vin%C3%ADciuszaninelo/)
+
