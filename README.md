@@ -24,5 +24,5 @@ WORK
 * [Styled Components ](https://styled-components.com/)  
 
 
-<h2>Author</h2>
+<h2>Author</h2><br>
 <p>Vinícius Marques Zaninelo - [Linkedin](https://www.linkedin.com/in/vin%C3%ADciuszaninelo/)</p>
