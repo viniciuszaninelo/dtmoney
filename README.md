@@ -25,5 +25,4 @@ WORK
 
 
 <h2>Author</h2>
-<p>Vinícius Marques Zaninelo - [Linkedin](https://www.linkedin.com/in/vin%C3%ADciuszaninelo/)
-</p>
+<p>Vinícius Marques Zaninelo - [Linkedin](https://www.linkedin.com/in/vin%C3%ADciuszaninelo/)</p>
