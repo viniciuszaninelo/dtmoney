@@ -21,4 +21,5 @@ WORK
 * [Styled Components ](https://styled-components.com/)  
 
 <h2>Authors</h2>
-Vinícius Marques Zaninelo -[Linkedin](https://www.linkedin.com/in/vin%C3%ADciuszaninelo/)
+Vinícius Marques Zaninelo - [Linkedin](https://www.linkedin.com/in/vin%C3%ADciuszaninelo/)
+
