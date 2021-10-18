@@ -1,9 +1,10 @@
-import { FormEvent, useState } from 'react'
+import { FormEvent, useState, useContext } from 'react'
 import Modal from 'react-modal'
 import closeImg from '../../assets/close.svg'
 import entradaImg from '../../assets/entrada.svg'
 import saidaImg from '../../assets/saida.svg'
 import { api } from '../../services/api'
+import { TransactionsContext } from '../../TransactionsContext'
 import { Container, TransactionTypeContainer, RadioBox } from './styles'
 
 
@@ -13,23 +14,29 @@ interface NewTransactionModalProps {
 }
 
 export function NewTransactionModal({ isOpen, onRequestClose}: NewTransactionModalProps) {
+  const { createTransaction } = useContext(TransactionsContext);
+
   const [type, setType] = useState('deposit');
   const [title, setTitle] = useState('');
-  const [value, setValue] = useState(0);
+  const [amount, setAmount] = useState(0);
   const [category, setCategory] = useState('');
 
 
-  function handleCreateNewTransaction(event: FormEvent) {
+  async function handleCreateNewTransaction(event: FormEvent) {
     event.preventDefault(); //faz com que a página pare de recarregar, assim que o usuário click no botão de cadastrar
 
-    const data = ({
+    await createTransaction({
       title,
-      value, 
-      category,
+      amount,
+      category, 
       type,
-    });
+    })
 
-    api.post('/transitions', data)
+    setTitle('');
+    setAmount(0);
+    setCategory('');
+    setType('deposit');
+    onRequestClose();
   }
 
 
@@ -52,7 +59,7 @@ export function NewTransactionModal({ isOpen, onRequestClose}: NewTransactionMod
       <h2>Cadastrar transação</h2>
 
       <input type="text" placeholder="Título" value={title} onChange={event => setTitle(event.target.value)}/>
-      <input type="number" placeholder="Valor" value={value} onChange={event => setValue(Number(event.target.value))}/>
+      <input type="number" placeholder="Valor" value={amount} onChange={event => setAmount(Number(event.target.value))}/>
       
       <TransactionTypeContainer>
         <RadioBox 
