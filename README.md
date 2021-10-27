@@ -6,9 +6,10 @@
 WORK
 
 <h2>Mobile view</h2>
-<a target=_blank>
+<p align="center">
 ![enter image description here](https://github.com/viniciusmarquezaninelo/dtmoney/blob/master/src/assets/websitetur.gif)<br />
-</a>
+</p>
+
 <h2>Português</h2>
 <p>
   Dt money é um site em que você pode gerenciar suas finanças. Com ele você pode colacar todas as saídas e entradas do seu dinheiro, e ele ainda calcula o valor final de todas as suas transações 
