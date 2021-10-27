@@ -7,7 +7,7 @@ WORK
 
 <h2>Mobile view</h2>
 <p align="center">
-![enter image description here](https://github.com/viniciusmarquezaninelo/dtmoney/blob/master/src/assets/websitetur.gif)<br />
+![img](https://github.com/viniciusmarquezaninelo/dtmoney/blob/master/src/assets/websitetur.gif)<br />
 </p>
 
 <h2>Português</h2>
