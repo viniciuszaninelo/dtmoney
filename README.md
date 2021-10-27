@@ -6,7 +6,7 @@
 WORK
 
 <h2>Mobile view</h2>
-![enter image description here](https://github.com/viniciusmarquezaninelo/dtmoney/blob/master/src/assets/websitetur.gif)
+! [enter image description here](https://github.com/viniciusmarquezaninelo/dtmoney/blob/master/src/assets/websitetur.gif)
 
 
 <h2>Português</h2>
