@@ -3,12 +3,11 @@
 </p>
 
 <h2>Desktop view</h2>
-WORK
+  <p align="center">
+ <img src="https://github.com/viniciusmarquezaninelo/dtmoney/blob/master/src/assets/websitetur.gif" alt="PRs welcome!" />
+</p>
 
 <h2>Mobile view</h2>
-<p align="center">
- img= "src="https://github.com/viniciusmarquezaninelo/dtmoney/blob/master/src/assets/websitetur.gif"/">
-</p>
 
 <h2>Português</h2>
 <p>
